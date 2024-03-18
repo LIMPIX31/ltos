@@ -1,13 +1,14 @@
 {
   "name": "@ltos/config-eslint",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
+    "publish": "yarn npm publish",
     "build": "tsup",
     "prepack": "bun run build"
   },
