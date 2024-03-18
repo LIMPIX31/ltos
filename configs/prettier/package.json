@@ -4,12 +4,20 @@
   "type": "module",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
-    "postinstall": "tsup"
+    "prepack": "bun run build"
   },
   "devDependencies": {
     "@repo/tsup": "workspace:*",
     "tsup": "8.0.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts"
   }
 }

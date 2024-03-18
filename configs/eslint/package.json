@@ -4,12 +4,15 @@
   "version": "0.0.0",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "postinstall": "tsup",
-    "build": "tsup"
+    "build": "tsup",
+    "prepack": "bun run build"
   },
   "dependencies": {
-    "@ltos/config-prettier": "workspace:~",
+    "@ltos/config-prettier": "~0.0.0",
     "eslint": "^8",
     "eslint-config-prettier": "^9",
     "eslint-plugin-prettier": "^5",
