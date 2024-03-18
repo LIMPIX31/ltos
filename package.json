@@ -6,7 +6,13 @@
     "configs/*",
     "repo/*"
   ],
+  "scripts": {
+    "build": "turbo build",
+    "lint": "eslint ."
+  },
   "devDependencies": {
+    "@ltos/config-eslint": "workspace:*",
+    "@ltos/config-prettier": "workspace:*",
     "@repo/tsconfig": "workspace:*",
     "@types/bun": "latest",
     "turbo": "1.12.5",
@@ -14,5 +20,8 @@
   },
   "peerDependencies": {
     "typescript": "5.4.2"
+  },
+  "dependencies": {
+    "globby": "^14.0.1"
   }
 }

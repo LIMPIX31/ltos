@@ -8,7 +8,18 @@
     "postinstall": "tsup",
     "build": "tsup"
   },
+  "dependencies": {
+    "@ltos/config-prettier": "workspace:~",
+    "eslint": "^8",
+    "eslint-config-prettier": "^9",
+    "eslint-plugin-prettier": "^5",
+    "prettier-plugin-layout": "~0.0.2",
+    "@typescript-eslint/parser": "^7",
+    "@typescript-eslint/eslint-plugin": "^7",
+    "@lmpx-fork/eslint-plugin-simple-import-sort": "~1.0.4"
+  },
   "devDependencies": {
+    "@types/eslint": "^8",
     "@repo/tsup": "workspace:*",
     "tsup": "8.0.2"
   },
