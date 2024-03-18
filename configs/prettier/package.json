@@ -1,0 +1,15 @@
+{
+  "name": "@ltos/config-prettier",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "postinstall": "tsup"
+  },
+  "devDependencies": {
+    "@repo/tsup": "workspace:*",
+    "tsup": "8.0.2"
+  }
+}

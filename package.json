@@ -1,0 +1,18 @@
+{
+  "name": "ltos",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "configs/*",
+    "repo/*"
+  ],
+  "devDependencies": {
+    "@repo/tsconfig": "workspace:*",
+    "@types/bun": "latest",
+    "turbo": "1.12.5",
+    "typescript": "5.4.2"
+  },
+  "peerDependencies": {
+    "typescript": "5.4.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@repo/tsup",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "tsup"
+  },
+  "dependencies": {
+    "tsup": "8.0.2"
+  },
+  "peerDependencies": {
+    "tsup": "8.0.2"
+  }
+}
