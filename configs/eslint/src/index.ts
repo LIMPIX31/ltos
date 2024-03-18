@@ -41,6 +41,6 @@ export default [
 				},
 			},
 		},
-		ignores: ['**/.*.js', '**/node_modules/*', '**/dist/*'],
+		ignores: ['**/.*.js', '**/node_modules/*', '**/dist/*', '.pnp.cjs', '.pnp.loader.mjs'],
 	},
 ] satisfies Linter.FlatConfig[]

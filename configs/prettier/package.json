@@ -11,9 +11,14 @@
     "build": "tsup",
     "prepack": "bun run build"
   },
+  "dependencies": {
+    "prettier-plugin-layout": "~0.0.2"
+  },
   "devDependencies": {
     "@repo/tsup": "workspace:*",
-    "tsup": "8.0.2"
+    "@types/node": "20.11.28",
+    "tsup": "8.0.2",
+    "typescript": "5.3.3"
   },
   "publishConfig": {
     "access": "public",

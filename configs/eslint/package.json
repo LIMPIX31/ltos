@@ -12,19 +12,22 @@
     "prepack": "bun run build"
   },
   "dependencies": {
-    "@ltos/config-prettier": "~0.0.0",
+    "@lmpx-fork/eslint-plugin-simple-import-sort": "~1.0.4",
+    "@ltos/config-prettier": "workspace:~",
+    "@typescript-eslint/eslint-plugin": "^7",
+    "@typescript-eslint/parser": "^7",
     "eslint": "^8",
     "eslint-config-prettier": "^9",
     "eslint-plugin-prettier": "^5",
-    "prettier-plugin-layout": "~0.0.2",
-    "@typescript-eslint/parser": "^7",
-    "@typescript-eslint/eslint-plugin": "^7",
-    "@lmpx-fork/eslint-plugin-simple-import-sort": "~1.0.4"
+    "prettier": "^3",
+    "prettier-plugin-layout": "~0.0.2"
   },
   "devDependencies": {
-    "@types/eslint": "^8",
     "@repo/tsup": "workspace:*",
-    "tsup": "8.0.2"
+    "@types/eslint": "^8",
+    "@types/node": "20.11.28",
+    "tsup": "8.0.2",
+    "typescript": "5.3.3"
   },
   "publishConfig": {
     "access": "public",
