@@ -16,7 +16,7 @@ const project = resolve(process.cwd(), 'tsconfig.json')
 export default [
 	prettierConfig,
 	{
-		files: ['**/*.{js,jsx,ts,tsx,mjs,cjs,mts,cts,html}'],
+		files: ['**/*.{js,jsx,ts,tsx,mjs,cjs,mts,cts}'],
 		rules,
 		plugins: {
 			prettier,

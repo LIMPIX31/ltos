@@ -1,7 +1,7 @@
 {
   "name": "@ltos/config-eslint",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -10,7 +10,7 @@
   "scripts": {
     "publish": "yarn npm publish",
     "build": "tsup",
-    "prepack": "bun run build"
+    "prepack": "yarn run build"
   },
   "dependencies": {
     "@lmpx-fork/eslint-plugin-simple-import-sort": "~1.0.4",
